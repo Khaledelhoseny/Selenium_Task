@@ -1,0 +1,15 @@
+{
+  "URL" : "https://petstore.com/",
+  "Login": {
+    "ValidCredentials" : {
+      "Email" : "khaledelhoseny76@gmail.com" ,
+      "Password" : "Khaledelhoseny7"
+    },
+    "InValidCredentials" : {
+        "Email" : "aaaa@gmail.com" ,
+        "Password" : "123422"
+      }
+  },
+  "ValidProduct" : "Apple Cinema 30",
+  "InvalidProduct" : "aaaaaaa"
+}

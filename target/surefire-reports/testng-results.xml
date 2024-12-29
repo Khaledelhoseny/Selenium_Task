@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T20:37:49 EET" name="Smoke Test Suite" finished-at="2024-11-16T20:38:06 EET" duration-ms="16392">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTests.testSuccessfulLogin()[pri:1, instance:login.LoginTests@77fbd92c]" name="testSuccessfulLogin" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidUserName()[pri:2, instance:login.LoginTests@77fbd92c]" name="testInvalidUserName" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidPassword()[pri:3, instance:login.LoginTests@77fbd92c]" name="testInvalidPassword" class="login.LoginTests"/>
+        <method signature="LoginTests.testSuccessfulLogin()[pri:1, instance:login.LoginTests@78691363]" name="testSuccessfulLogin" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidUserName()[pri:2, instance:login.LoginTests@78691363]" name="testInvalidUserName" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidPassword()[pri:3, instance:login.LoginTests@78691363]" name="testInvalidPassword" class="login.LoginTests"/>
+      </group> <!-- smoke -->
+      <group name="regression2">
+        <method signature="LoginTests.testSuccessfulLogin()[pri:1, instance:login.LoginTests@77fbd92c]" name="testSuccessfulLogin" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidUserName()[pri:2, instance:login.LoginTests@77fbd92c]" name="testInvalidUserName" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidPassword()[pri:3, instance:login.LoginTests@77fbd92c]" name="testInvalidPassword" class="login.LoginTests"/>
+        <method signature="LoginTests.testSuccessfulLogin()[pri:1, instance:login.LoginTests@78691363]" name="testSuccessfulLogin" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidUserName()[pri:2, instance:login.LoginTests@78691363]" name="testInvalidUserName" class="login.LoginTests"/>
+        <method signature="LoginTests.testInvalidPassword()[pri:3, instance:login.LoginTests@78691363]" name="testInvalidPassword" class="login.LoginTests"/>
+      </group> <!-- regression2 -->
+    </groups>
+    <test started-at="2024-11-16T20:37:49 EET" name="chorme" finished-at="2024-11-16T20:38:00 EET" duration-ms="10999">
+      <class name="login.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:49 EET" name="setUp" finished-at="2024-11-16T20:37:50 EET" duration-ms="1321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome(java.lang.reflect.Method)[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:51 EET" name="goHome" finished-at="2024-11-16T20:37:52 EET" duration-ms="1145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testSuccessfulLogin() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:52 EET" name="testSuccessfulLogin" finished-at="2024-11-16T20:37:56 EET" duration-ms="4076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="takeScrenShotAfterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:56 EET" name="takeScrenShotAfterMethod" finished-at="2024-11-16T20:37:56 EET" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testSuccessfulLogin() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTests.testSuccessfulLogin()[pri:1, instance:login.LoginTests@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScrenShotAfterMethod -->
+        <test-method is-config="true" signature="goHome(java.lang.reflect.Method)[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:56 EET" name="goHome" finished-at="2024-11-16T20:37:56 EET" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidUserName() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testInvalidUserName()[pri:2, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:56 EET" name="testInvalidUserName" finished-at="2024-11-16T20:37:58 EET" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserName -->
+        <test-method is-config="true" signature="takeScrenShotAfterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:58 EET" name="takeScrenShotAfterMethod" finished-at="2024-11-16T20:37:58 EET" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidUserName() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testInvalidUserName status=SUCCESS method=LoginTests.testInvalidUserName()[pri:2, instance:login.LoginTests@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScrenShotAfterMethod -->
+        <test-method is-config="true" signature="goHome(java.lang.reflect.Method)[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:58 EET" name="goHome" finished-at="2024-11-16T20:37:58 EET" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidPassword() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testInvalidPassword()[pri:3, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:37:58 EET" name="testInvalidPassword" finished-at="2024-11-16T20:38:00 EET" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="takeScrenShotAfterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:38:00 EET" name="takeScrenShotAfterMethod" finished-at="2024-11-16T20:38:00 EET" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidPassword() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testInvalidPassword status=SUCCESS method=LoginTests.testInvalidPassword()[pri:3, instance:login.LoginTests@77fbd92c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScrenShotAfterMethod -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:login.LoginTests@77fbd92c]" started-at="2024-11-16T20:38:00 EET" name="teaDown" finished-at="2024-11-16T20:38:00 EET" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- login.LoginTests -->
+    </test> <!-- chorme -->
+    <test started-at="2024-11-16T20:37:49 EET" name="firefox" finished-at="2024-11-16T20:38:06 EET" duration-ms="16392">
+      <class name="login.LoginTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:37:49 EET" name="beforeSuite" finished-at="2024-11-16T20:37:49 EET" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:37:49 EET" name="setUp" finished-at="2024-11-16T20:37:52 EET" duration-ms="3217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome(java.lang.reflect.Method)[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:37:52 EET" name="goHome" finished-at="2024-11-16T20:37:57 EET" duration-ms="4159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testSuccessfulLogin() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:37:57 EET" name="testSuccessfulLogin" finished-at="2024-11-16T20:38:00 EET" duration-ms="2992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="takeScrenShotAfterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:00 EET" name="takeScrenShotAfterMethod" finished-at="2024-11-16T20:38:00 EET" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testSuccessfulLogin() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTests.testSuccessfulLogin()[pri:1, instance:login.LoginTests@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScrenShotAfterMethod -->
+        <test-method is-config="true" signature="goHome(java.lang.reflect.Method)[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:00 EET" name="goHome" finished-at="2024-11-16T20:38:00 EET" duration-ms="401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidUserName() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testInvalidUserName()[pri:2, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:00 EET" name="testInvalidUserName" finished-at="2024-11-16T20:38:02 EET" duration-ms="1995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserName -->
+        <test-method is-config="true" signature="takeScrenShotAfterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:02 EET" name="takeScrenShotAfterMethod" finished-at="2024-11-16T20:38:02 EET" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidUserName() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testInvalidUserName status=SUCCESS method=LoginTests.testInvalidUserName()[pri:2, instance:login.LoginTests@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScrenShotAfterMethod -->
+        <test-method is-config="true" signature="goHome(java.lang.reflect.Method)[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:02 EET" name="goHome" finished-at="2024-11-16T20:38:03 EET" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidPassword() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testInvalidPassword()[pri:3, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:03 EET" name="testInvalidPassword" finished-at="2024-11-16T20:38:05 EET" duration-ms="1929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="takeScrenShotAfterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:05 EET" name="takeScrenShotAfterMethod" finished-at="2024-11-16T20:38:05 EET" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.LoginTests.testInvalidPassword() throws java.io.FileNotFoundException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testInvalidPassword status=SUCCESS method=LoginTests.testInvalidPassword()[pri:3, instance:login.LoginTests@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScrenShotAfterMethod -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:05 EET" name="teaDown" finished-at="2024-11-16T20:38:06 EET" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:login.LoginTests@78691363]" started-at="2024-11-16T20:38:06 EET" name="afterSuite" finished-at="2024-11-16T20:38:06 EET" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- login.LoginTests -->
+    </test> <!-- firefox -->
+  </suite> <!-- Smoke Test Suite -->
+</testng-results>
